@@ -90,7 +90,7 @@ def prepare_for_deployment():
     print("4. On Heroku, connect your app to the GitHub repository")
     print("5. Set environment variables on Heroku:")
     print("   - Go to Settings > Config Vars")
-    print("   - Add DISCORD_TOKEN and OPENAI_API_KEY with their respective values")
+    print("   - Add DISCORD_TOKEN, OPENAI_API_KEY, and HEROKU_API_KEY with their respective values")
     print("6. Deploy your app on Heroku using the GitHub integration")
     
     # Scale dynos
