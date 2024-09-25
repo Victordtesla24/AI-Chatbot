@@ -1,0 +1,14 @@
+import requests
+import zipfile
+import io
+import os
+
+def install_package(package):
+    os.system(f"pip install {package}")
+
+packages = ['openai', 'discord', 'python-dotenv', 'agency-swarm', 'pandas', 'matplotlib']
+
+for package in packages:
+    install_package(package)
+
+print("All required packages installed successfully.")
