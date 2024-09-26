@@ -25,4 +25,5 @@ def report():
     return render_template('report.html', chat_count=chat_count, unique_users=unique_users)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    debug_mode = os.getenv('FLASK_DEBUG', 'False').lower() in ['true', '1', 't']
+    app.run(debug=debug_mode)
