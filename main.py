@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 import openai
 from config_vars import DISCORD_TOKEN, OPENAI_API_KEY
-import agency_swarm
+import agency_swarms
 
 
 # Set up OpenAI
